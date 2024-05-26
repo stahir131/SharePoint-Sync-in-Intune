@@ -13,3 +13,9 @@ Open a web browser, sign in to Office 365 as a global or SharePoint admin for yo
 
 
 Click the "Sync" button on the library you want to sync automatically, and then click "Copy library ID."
+
+![onedrive3](https://github.com/stahir131/SharePoint-Sync-in-Intune/assets/64047385/a10e908a-3806-46c2-978e-2451fe8c3186)
+
+Click "Show", and then enter a friendly name to identify the library in the Value Name field and then enter the library ID in the Value field.
+
+
