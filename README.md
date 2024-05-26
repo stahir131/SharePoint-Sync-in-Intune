@@ -18,4 +18,6 @@ Click the "Sync" button on the library you want to sync automatically, and then 
 
 Click "Show", and then enter a friendly name to identify the library in the Value Name field and then enter the library ID in the Value field.
 
+![onedrive4](https://github.com/stahir131/SharePoint-Sync-in-Intune/assets/64047385/2ed0d2ba-49ee-4e28-aa56-492694ff5590)
 
+Assign devices to the policy and create.
