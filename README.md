@@ -1,11 +1,13 @@
+<p align="center">
 <b>Configure team site libraries to sync automatically:</b>
-
+</p>
 This setting is used to specify what SharePoint team to sync automatically the next time users sign in to OneDrive app. May take up to 8 hrs after the user signs in before syncing starts.
 
 I have created a HR SharePoint site and added a “HR_dept” dynamic group as a member.
 
 Go to “Endpoint manager” > Configuration > Create 
-Fine “Configure team site libraries to sync automatically” > Enabled
+
+Find <b>“Configure team site libraries to sync automatically”</b>  > Enabled
 
 To specify a library to sync:
 
