@@ -7,7 +7,7 @@ I have created a HR SharePoint site and added a “HR_dept” dynamic group as a
 
 Go to “Endpoint manager” > Configuration > Create 
 
-Find <b>“Configure team site libraries to sync automatically”</b>  > Enabled
+Find <b>“Configure team site libraries to sync automatically”</b>  -> Enabled
 
 To specify a library to sync:
 
