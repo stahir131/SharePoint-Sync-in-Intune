@@ -5,15 +5,16 @@ This setup allows devices to automatically start syncing specified SharePoint li
 
 To automatically sync a SharePoint site library to Intune-managed Windows devices, you can use the OneDrive settings available in Configuration blade in Microsoft Endpoint Manager (Intune).  Here’s a step-by-step approach:
 
-**Step 1: Configure OneDrive Settings in SharePoint**
-Login to SharePoint admin portal and locate the site to be synced.<br />
+**Step 1: Configure OneDrive Settings in SharePoint**<br />
+Login to **SharePoint** admin portal and locate the site to be synced.<br />
 Go to the "**Documents**" and select "**Sync**" at the top<br />
-Cancel out the "Open Microsoft OneDrive" window and select **Copy library ID** <br />
+Cancel out the "**Open Microsoft OneDrive**" window and select **Copy library ID** <br />
 Save the ID for later use.
 
 ![image](https://github.com/user-attachments/assets/9a3ca6ac-0c20-4b02-a869-53f5fa4d80cf)
 
-Go to “Endpoint manager” > Configuration > Create 
+## **Step 2: Set up Intune Configuration**
+Go to “**Endpoint manager**” admin portal> **Devices** > **Configuration**
 
 Find <b>“Configure team site libraries to sync automatically”</b>  -> Enabled
 
