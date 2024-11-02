@@ -1,7 +1,9 @@
 <p align="center">
 <b>Configure team site libraries to sync automatically:</b>
 </p>
-This setting is used to specify what SharePoint team to sync automatically the next time users sign in to OneDrive app. May take up to 8 hrs after the user signs in before syncing starts.
+This setup allows devices to automatically start syncing specified SharePoint libraries as soon as the OneDrive client connects, providing seamless access to shared document libraries. This may take up to 8 hrs after the user signs in before syncing starts.<br />
+
+To automatically sync a SharePoint site library to Intune-managed Windows devices, you can use the OneDrive settings available in Configuration blade in Microsoft Endpoint Manager (Intune).  Here’s a step-by-step approach:
 
 I have created a HR SharePoint site and added a “HR_dept” dynamic group as a member.
 
