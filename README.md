@@ -9,26 +9,25 @@ To automatically sync a SharePoint site library to Intune-managed Windows device
 Login to **SharePoint** admin portal and locate the site to be synced.<br />
 Go to the "**Documents**" and select "**Sync**" at the top<br />
 Cancel out the "**Open Microsoft OneDrive**" window and select **Copy library ID** <br />
-Save the ID for later use.
+Save the ID for later use in Step 2.
 
 ![image](https://github.com/user-attachments/assets/9a3ca6ac-0c20-4b02-a869-53f5fa4d80cf)
 
-## **Step 2: Set up Intune Configuration**
-Go to “**Endpoint manager**” admin portal> **Devices** > **Configuration**
+**Step 2: Set up Intune Configuration**<br />
+Go to “**Endpoint manager**” admin portal> **Devices** > **Configuration**<br />
+Select **Create New policy**<br />
+Platform: **Windows 10 and later**<br />
+Profile type: **Template**<br />
+Template name: **Administrative templates**<br /> and **Create**<br />
 
-Find <b>“Configure team site libraries to sync automatically”</b>  -> Enabled
+![image](https://github.com/user-attachments/assets/925a876c-684d-4cc3-8b29-5a103e1289dd)
 
-To specify a library to sync:
+Name: Give it a descriptive name and click **Next** to **Configuration settings**<br >
+Click on **All Settings**> search for OneDrive > Select **Configure team site libraries to sync automatically**<br />
+Select **Enabled** > Enter a a name for the library copy and paste the ID saved in Step 1 above.<br />
+Click **OK**<br >
+![image](https://github.com/user-attachments/assets/925b653a-9e55-4b2d-9fd9-fc0d0f463d56) 
+<br />
+Click Next and leave **Scope** as Default and Next **Assignment**<br />
+**Assignment**: Assign a groups as required and **Create**
 
-Open a web browser, sign in to Office 365 as a global or SharePoint admin for your organization, and browse to the library to sync.
-
-
-Click the "Sync" button on the library you want to sync automatically, and then click "Copy library ID."
-
-![onedrive3](https://github.com/stahir131/SharePoint-Sync-in-Intune/assets/64047385/a10e908a-3806-46c2-978e-2451fe8c3186)
-
-Click "Show", and then enter a friendly name to identify the library in the Value Name field and then enter the library ID in the Value field.
-
-![onedrive4](https://github.com/stahir131/SharePoint-Sync-in-Intune/assets/64047385/2ed0d2ba-49ee-4e28-aa56-492694ff5590)
-
-Assign devices to the policy and create.
