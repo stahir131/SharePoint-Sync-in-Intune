@@ -29,5 +29,10 @@ Click **OK**<br >
 ![image](https://github.com/user-attachments/assets/925b653a-9e55-4b2d-9fd9-fc0d0f463d56) 
 <br />
 Click Next and leave **Scope** as Default and Next **Assignment**<br />
-**Assignment**: Assign a groups as required and **Create**
+**Assignment**: Assign a groups as required and **Create**<br />
+
+The SharePoint library was synced to down to the user device after couple of hours as seen below.<br />
+![image](https://github.com/user-attachments/assets/b5caaff0-ea77-463e-b4b8-f204d839b1e1)
+
+
 
