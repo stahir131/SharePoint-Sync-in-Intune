@@ -35,12 +35,16 @@ Name: Give it a descriptive name and click **Next** to **Configuration settings*
 Click on **All Settings**> search for OneDrive > Select **Configure team site libraries to sync automatically**<br />
 Select **Enabled** > Enter a name for the library, copy and paste the ID saved in Step 1 above.<br />
 Click **OK**<br >
-![image](https://github.com/user-attachments/assets/925b653a-9e55-4b2d-9fd9-fc0d0f463d56) 
+![image](https://github.com/user-attachments/assets/31f48a66-c257-48ad-85c7-9f3aa2059820)
+
+Again on search bar, type "Use OneDrive File On-Demand" and enable that as part of this configuration. You can enable as many settings as needed here.<br />
+![image](https://github.com/user-attachments/assets/c7bafc33-3a19-4bf9-a938-0de15168db2b)
 <br />
-Click Next and leave **Scope** as Default and Next **Assignment**<br />
-**Assignment**: Assign a groups as required and **Create**<br />
+Click Next and leave **Scope** as Default and Next to the **Assignment**<br />
+**Assignment**: Assign devices or users groups as required and **Create**<br />
 
 The SharePoint library was synced to down to the user device after couple of hours as seen below.<br />
+
 ![image](https://github.com/user-attachments/assets/b5caaff0-ea77-463e-b4b8-f204d839b1e1)
 
 
