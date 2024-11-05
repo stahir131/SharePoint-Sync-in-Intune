@@ -49,3 +49,4 @@ The SharePoint library was synced to down to the user device after couple of hou
 
 
 
+<!---Source: https://docs.microsoft.com/en-us/onedrive/use-group-policy#AutoMountTeamSites--->
