@@ -15,6 +15,7 @@ Login to **SharePoint** admin portal as global or SharePoint administrator and l
 Go to the "**Documents**" and select "**Sync**" at the top<br />
 Cancel out the "**Open Microsoft OneDrive**" window and select **Copy library ID** <br />
 The special characters in this copied string are in Unicode and must be converted to ASCII.<br />
+
 To convert the Unicode to ASCII, open up a **PowerShell** and run this command below.
 #### [uri]::UnescapeDataString("**Copied String**") <br />
 replacing "Copied String" with the library ID you copied above and press Enter:<br /> 
