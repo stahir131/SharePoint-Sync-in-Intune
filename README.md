@@ -3,9 +3,9 @@
 
 This setting lets you specify SharePoint team site libraries to sync automatically the next time users sign in to the OneDrive sync app. The OneDrive sync app will automatically download specified libraries as online-only files at the user's next sign-in, and users will not be able to stop the syncing of these libraries.This may take up to 8 hrs after the user signs in before syncing starts.<br />
 
-**Requirements**<br />
- 1. The setting requires that OneDrive Files On-Demand be enabled.<br />
- 2. Computer must be running Windows 10 (1709) Fall Creators Update or later<br />
+**Requirements**
+1. The setting requires that OneDrive Files On-Demand be enabled.<br />
+2. Computer must be running Windows 10 (1709) Fall Creators Update or later<br />
  
 To automatically sync a SharePoint site library to Intune-managed Windows devices, you can use the OneDrive settings available in Configuration blade in Microsoft Endpoint Manager (Intune).  Here’s a step-by-step approach:
 
