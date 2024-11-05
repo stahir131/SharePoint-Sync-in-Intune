@@ -14,7 +14,11 @@ To automatically sync a SharePoint site library to Intune-managed Windows device
 Login to **SharePoint** admin portal as global or SharePoint administrator and locate the library to be synced.<br />
 Go to the "**Documents**" and select "**Sync**" at the top<br />
 Cancel out the "**Open Microsoft OneDrive**" window and select **Copy library ID** <br />
-Save the ID for later use in Step 2.
+The special characters in this copied string are in Unicode and must be converted to ASCII.<br />
+To convert the Unicode to ASCII, open up a **PowerShell** and run this command below.
+#### [uri]::UnescapeDataString("**Copied String**") <br />
+replacing "Copied String" with the library ID you copied above and press Enter:<br /> 
+Save the resulting ID for later use in Step 2.
 
 ![image](https://github.com/user-attachments/assets/9a3ca6ac-0c20-4b02-a869-53f5fa4d80cf)
 
