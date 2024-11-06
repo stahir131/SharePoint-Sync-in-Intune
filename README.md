@@ -33,7 +33,7 @@ Template name: **Administrative templates**<br /> and **Create**<br />
 ![image](https://github.com/user-attachments/assets/925a876c-684d-4cc3-8b29-5a103e1289dd)
 
 Name: Give it a descriptive name and click **Next** to **Configuration settings**<br >
-Click on **All Settings**> search for OneDrive > Select **Configure team site libraries to sync automatically**<br />
+Click on **All Settings**> search for OneDrive > Select **Configure team site libraries to sync automatically(User)**<br />
 Select **Enabled** > Enter a name for the library, copy and paste the ID saved in Step 1 above.<br />
 Click **OK**<br >
 ![image](https://github.com/user-attachments/assets/31f48a66-c257-48ad-85c7-9f3aa2059820)
