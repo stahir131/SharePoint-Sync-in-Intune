@@ -8,7 +8,7 @@ This setting lets you specify SharePoint team site libraries to sync automatical
 2. Computer must be running Windows 10 (1709) Fall Creators Update or later<br />
 3. Computer must be Intune-joined
  
-To automatically sync a SharePoint site library to Intune-managed Windows devices, you can use the OneDrive settings available in Configuration blade in Microsoft Endpoint Manager (Intune).  Here’s a step-by-step approach:
+To automatically sync a SharePoint site library to Intune-managed Windows devices, you can use the OneDrive settings available in the **Configuration** blade in Microsoft Endpoint Manager (Intune).  Here’s a step-by-step approach:
 
 **Step 1: Configure OneDrive Settings in SharePoint**<br />
 Login to **SharePoint** admin portal as global or SharePoint administrator and locate the library to be synced.<br />
@@ -46,8 +46,7 @@ Click Next and leave **Scope** as Default and Next to the **Assignment**<br />
 
 The SharePoint library was synced to down to the user device after couple of hours as seen below.<br />
 
-![image](https://github.com/user-attachments/assets/b5caaff0-ea77-463e-b4b8-f204d839b1e1)
+![image](https://github.com/user-attachments/assets/6e3952e6-1e53-445a-ab60-46a7b04bee7b)
 
+Further reading at Microsoft [here](https://docs.microsoft.com/en-us/onedrive/use-group-policy#AutoMountTeamSites/)
 
-
-<!---Source: https://docs.microsoft.com/en-us/onedrive/use-group-policy#AutoMountTeamSites--->
