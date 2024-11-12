@@ -19,7 +19,7 @@ To convert the Unicode to ASCII, open up a **PowerShell** and run this command b
 replacing "Copied String" with the library ID you copied above and press Enter:<br /> 
 Save the resulting ID for later use in Step 2.
 
-![image](https://github.com/user-attachments/assets/9a3ca6ac-0c20-4b02-a869-53f5fa4d80cf)
+  ![image](https://github.com/user-attachments/assets/9a3ca6ac-0c20-4b02-a869-53f5fa4d80cf)
 
 **Step 2: Set up Intune Configuration**<br />
 Go to “**Endpoint manager**” admin portal> **Devices** > **Configuration**<br />
@@ -34,9 +34,11 @@ Name: Give it a descriptive name and click **Next** to **Configuration settings*
 Click on **All Settings**> search for OneDrive > Select **Configure team site libraries to sync automatically(User)**<br />
 Select **Enabled** > Enter a name for the library, copy and paste the ID saved in Step 1 above.<br />
 Click **OK**<br >
+
 ![image](https://github.com/user-attachments/assets/31f48a66-c257-48ad-85c7-9f3aa2059820)
 
 Again on search bar, type "Use OneDrive File On-Demand" and enable that as part of this configuration. You can enable as many settings as needed here.<br />
+
 ![image](https://github.com/user-attachments/assets/c7bafc33-3a19-4bf9-a938-0de15168db2b)
 <br />
 Click Next and leave **Scope** as Default and Next to the **Assignment**<br />
