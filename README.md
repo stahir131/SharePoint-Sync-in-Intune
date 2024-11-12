@@ -1,5 +1,5 @@
 ## Configure team site libraries to sync automatically<br />
-This setting lets you specify SharePoint team site libraries to sync automatically the next time users sign in to the OneDrive sync app. The OneDrive sync app will automatically download specified libraries as online-only files at the user's next sign-in, and users will not be able to stop the syncing of these libraries.This may take up to 8 hrs after the user signs in before syncing starts.<br />
+This setting lets you specify SharePoint team site libraries to sync automatically the next time users sign in to the OneDrive sync app. The OneDrive sync app will automatically download specified libraries as online-only files at the user's next sign-in, and users will not be able to stop the syncing of these libraries. Microsoft states that syncing may take up to 8 hours after the user signs in, though in my experience, it only took about 2 hours.<br />
 
 **Requirements**
 1. The setting requires that OneDrive Files On-Demand be enabled.<br />
